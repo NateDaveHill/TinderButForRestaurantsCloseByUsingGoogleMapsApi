@@ -2,7 +2,7 @@ const express = require('express');
 const request = require('request');
 const app = express();
 
-const API_KEY = 'AIzaSyCEj_vL2caLxmvy2NcvVdoZdfBysjZMHbM'; // Replace with your actual API key
+const API_KEY = 'API_KEY'; // Replace with your actual API key
 
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
